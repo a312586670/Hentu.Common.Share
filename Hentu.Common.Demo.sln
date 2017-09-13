@@ -5,7 +5,13 @@ VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hentu.Common.NPOI", "src\Hentu.Common.NPOI\Hentu.Common.NPOI.csproj", "{28E085A1-3390-4426-B0A1-582D5D5FDEB2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{342FB583-2F4A-4E6A-B44E-2FBBDA01A3BD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Test", "4.Test", "{342FB583-2F4A-4E6A-B44E-2FBBDA01A3BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Share", "1.Share", "{227C1425-5D90-4482-BDD4-34DABBB584D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Thrift", "2.Thrift", "{C57EEEB6-F089-432B-B1A2-5BFD2C3A809F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Tool", "3.Tool", "{8C86150C-A9AB-40ED-9EF2-2FCA184A0B48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28E085A1-3390-4426-B0A1-582D5D5FDEB2} = {227C1425-5D90-4482-BDD4-34DABBB584D2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5CBB6C75-047B-4805-8C3C-D704D65D9D7F}
