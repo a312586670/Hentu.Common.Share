@@ -1,9 +1,9 @@
 ﻿using System.Configuration;
 
-namespace Thrift.Server.Config
+namespace Thrift.Client.Config
 {
     /// <summary>
-    /// thrift config.
+    /// thrift config section
     /// </summary>
     public class ThriftConfigSection : ConfigurationSection
     {

@@ -7,7 +7,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Hentu.Thrift.Server
+namespace Thrift.Server
 {
     /// <summary>
     /// zookeeper registry

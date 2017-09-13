@@ -1,12 +1,11 @@
-﻿using System;
-using System.Configuration;
+﻿using System.Configuration;
 
-namespace Thrift.Server.Config
+namespace Thrift.Client.Config
 {
     /// <summary>
-    /// thrift service collection
+    /// service config collection
     /// </summary>
-    [ConfigurationCollection(typeof(ServiceConfig), AddItemName = "service")]
+    [ConfigurationCollection(typeof(Service), AddItemName = "service")]
     public class ServiceCollection : ConfigurationElementCollection
     {
         /// <summary>
@@ -15,7 +14,7 @@ namespace Thrift.Server.Config
         /// <returns></returns>
         protected override ConfigurationElement CreateNewElement()
         {
-            return new ServiceConfig();
+            return new Service();
         }
         /// <summary>
         /// 获取指定元素的Key。
@@ -24,25 +23,25 @@ namespace Thrift.Server.Config
         /// <returns></returns>
         protected override object GetElementKey(ConfigurationElement element)
         {
-            return (element as ServiceConfig).Name;
+            return (element as Service).Name;
         }
         /// <summary>
         /// 获取指定位置的对象。
         /// </summary>
         /// <param name="i"></param>
         /// <returns></returns>
-        public ServiceConfig this[int i]
+        public Service this[int i]
         {
-            get { return BaseGet(i) as ServiceConfig; }
+            get { return BaseGet(i) as Service; }
         }
         /// <summary>
         /// 获取指定key的对象
         /// </summary>
         /// <param name="key"></param>
         /// <returns></returns>
-        public ServiceConfig Get(string key)
+        public Service Get(string key)
         {
-            return BaseGet(key) as ServiceConfig;
+            return BaseGet(key) as Service;
         }
     }
 }

@@ -2,7 +2,7 @@
 using Sodao.FastSocket.Server.Messaging;
 using Sodao.FastSocket.SocketBase;
 using System;
-namespace Hentu.Thrift.Server
+namespace Thrift.Server
 {
     /// <summary>
     /// thrift service

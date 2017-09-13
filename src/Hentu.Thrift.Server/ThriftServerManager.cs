@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Configuration;
 
-namespace Hentu.Thrift.Server
+namespace Thrift.Server
 {
     /// <summary>
     /// thrift server manager.

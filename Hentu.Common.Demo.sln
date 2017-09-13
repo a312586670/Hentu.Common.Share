@@ -13,9 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Thrift", "2.Thrift", "{C5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Tool", "3.Tool", "{8C86150C-A9AB-40ED-9EF2-2FCA184A0B48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hentu.Common.Thrift.Server", "src\Hentu.Thrift.Server\Hentu.Common.Thrift.Server.csproj", "{66D01E2B-5DF0-4B51-9ED8-E4E5B72AA82C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hentu.Thrift.Server", "src\Hentu.Thrift.Server\Hentu.Thrift.Server.csproj", "{66D01E2B-5DF0-4B51-9ED8-E4E5B72AA82C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hentu.Thrift.Client", "src\Hentu.Thrift.Client\Hentu.Thrift.Client.csproj", "{55FA1D78-D399-4F4E-80D0-950FB055F824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hentu.Thrift", "src\Hentu.Thrift\Hentu.Thrift.csproj", "{8A4ECAAF-8F17-4A5E-A987-EC927D20EFD3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,14 +37,19 @@ Global
 		{55FA1D78-D399-4F4E-80D0-950FB055F824}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55FA1D78-D399-4F4E-80D0-950FB055F824}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55FA1D78-D399-4F4E-80D0-950FB055F824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A4ECAAF-8F17-4A5E-A987-EC927D20EFD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A4ECAAF-8F17-4A5E-A987-EC927D20EFD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A4ECAAF-8F17-4A5E-A987-EC927D20EFD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A4ECAAF-8F17-4A5E-A987-EC927D20EFD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{28E085A1-3390-4426-B0A1-582D5D5FDEB2} = {227C1425-5D90-4482-BDD4-34DABBB584D2}
-		{66D01E2B-5DF0-4B51-9ED8-E4E5B72AA82C} = {227C1425-5D90-4482-BDD4-34DABBB584D2}
-		{55FA1D78-D399-4F4E-80D0-950FB055F824} = {227C1425-5D90-4482-BDD4-34DABBB584D2}
+		{66D01E2B-5DF0-4B51-9ED8-E4E5B72AA82C} = {C57EEEB6-F089-432B-B1A2-5BFD2C3A809F}
+		{55FA1D78-D399-4F4E-80D0-950FB055F824} = {C57EEEB6-F089-432B-B1A2-5BFD2C3A809F}
+		{8A4ECAAF-8F17-4A5E-A987-EC927D20EFD3} = {C57EEEB6-F089-432B-B1A2-5BFD2C3A809F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5CBB6C75-047B-4805-8C3C-D704D65D9D7F}

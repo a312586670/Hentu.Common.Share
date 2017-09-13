@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Configuration;
 
-namespace Hentu.Thrift.Server.Config
+namespace Thrift.Server.Config
 {
     /// <summary>
     /// service config

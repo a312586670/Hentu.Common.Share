@@ -1,16 +1,16 @@
 ﻿using System.Configuration;
 
-namespace Thrift.Server.Config
+namespace Thrift.Client.Config
 {
     /// <summary>
     /// zookeeper config
     /// </summary>
-    public sealed class ZookeeperConfig : ConfigurationElement
+    public sealed class Zookeeper : ConfigurationElement
     {
         /// <summary>
         /// zookeeper config path
         /// </summary>
-        [ConfigurationProperty("path", IsRequired = false, DefaultValue = "zookeeper.config")]
+        [ConfigurationProperty("path", IsRequired = false, DefaultValue = "dllconfigs/zookeeper.config")]
         public string ConfigPath
         {
             get { return (string)this["path"]; }
@@ -22,14 +22,6 @@ namespace Thrift.Server.Config
         public string ConfigName
         {
             get { return (string)this["name"]; }
-        }
-        /// <summary>
-        /// owner
-        /// </summary>
-        [ConfigurationProperty("owner", IsRequired = false, DefaultValue = "")]
-        public string Owner
-        {
-            get { return (string)this["owner"]; }
         }
         /// <summary>
         /// service node name

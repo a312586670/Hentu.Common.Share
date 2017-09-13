@@ -1,6 +1,6 @@
 ﻿using System.Configuration;
 
-namespace Hentu.Thrift.Server.Config
+namespace Thrift.Server.Config
 {
     /// <summary>
     /// registry onfig
