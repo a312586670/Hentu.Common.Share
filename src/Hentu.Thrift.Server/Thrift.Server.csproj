@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{55FA1D78-D399-4F4E-80D0-950FB055F824}</ProjectGuid>
+    <ProjectGuid>{66D01E2B-5DF0-4B51-9ED8-E4E5B72AA82C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Hentu.Thrift.Client</RootNamespace>
-    <AssemblyName>Hentu.Thrift.Client</AssemblyName>
+    <RootNamespace>Thrift.Server</RootNamespace>
+    <AssemblyName>Thrift.Server</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -33,6 +33,9 @@
     <Reference Include="FastSocket.Client">
       <HintPath>..\..\packages\fastsocket_client_1.0.0.6.1.0.0.6\lib\net40\FastSocket.Client.dll</HintPath>
     </Reference>
+    <Reference Include="FastSocket.Server">
+      <HintPath>..\..\packages\fastsocket_server_1.0.0.6.1.0.0.4\lib\net40\FastSocket.Server.dll</HintPath>
+    </Reference>
     <Reference Include="FastSocket.SocketBase">
       <HintPath>..\..\packages\fastsocket_base_1.0.0.6.1.0.0.3\lib\net40\FastSocket.SocketBase.dll</HintPath>
     </Reference>
@@ -50,28 +53,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Config\Discovery.cs" />
-    <Compile Include="Config\EndPoint.cs" />
-    <Compile Include="Config\EndPointCollection.cs" />
-    <Compile Include="Config\Service.cs" />
+    <Compile Include="Config\RegistryConfig.cs" />
     <Compile Include="Config\ServiceCollection.cs" />
+    <Compile Include="Config\ServiceConfig.cs" />
     <Compile Include="Config\ThriftConfigSection.cs" />
-    <Compile Include="Config\Zookeeper.cs" />
+    <Compile Include="Config\ZookeeperConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ThriftClient.cs" />
-    <Compile Include="ThriftClientFactory.cs" />
-    <Compile Include="ThriftClientManager.cs" />
-    <Compile Include="ZoomkeeperDiscovery.cs" />
+    <Compile Include="ThriftServer.cs" />
+    <Compile Include="ThriftServerManager.cs" />
+    <Compile Include="ThriftService.cs" />
+    <Compile Include="ZookeeperRegistry.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
+    <None Include="App.config" />
     <None Include="zookeeper.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Hentu.Thrift\Hentu.Thrift.csproj">
+    <ProjectReference Include="..\Hentu.Thrift\Thrift.csproj">
       <Project>{8a4ecaaf-8f17-4a5e-a987-ec927d20efd3}</Project>
-      <Name>Hentu.Thrift</Name>
+      <Name>Thrift</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

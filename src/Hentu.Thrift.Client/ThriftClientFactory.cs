@@ -39,7 +39,6 @@ namespace Thrift.Client
         {
             if (string.IsNullOrEmpty(sectionName))
                 throw new ArgumentNullException("sectionName");
-
             //load config...
             Config.ThriftConfigSection config = null;
             if (string.IsNullOrEmpty(configPath))

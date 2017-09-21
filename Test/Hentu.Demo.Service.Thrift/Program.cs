@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hentu.Thrift.Client
+namespace Hentu.Demo.Service.Thrift
 {
-    public class Class1
-    {
-    }
+	class Program
+	{
+		static void Main(string[] args)
+		{
+		}
+	}
 }

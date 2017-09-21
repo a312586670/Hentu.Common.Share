@@ -7,8 +7,8 @@
     <ProjectGuid>{8A4ECAAF-8F17-4A5E-A987-EC927D20EFD3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Hentu.Thrift</RootNamespace>
-    <AssemblyName>Hentu.Thrift</AssemblyName>
+    <RootNamespace>Thrift</RootNamespace>
+    <AssemblyName>Thrift</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

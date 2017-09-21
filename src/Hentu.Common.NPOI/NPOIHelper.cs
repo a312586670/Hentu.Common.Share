@@ -11,7 +11,7 @@ using System.Text;
 using System.Web;
 using NPOI.XSSF.UserModel;
 
-namespace Sodao.JukeTool.Manage.Web.Helper
+namespace Hentu.Common.NPOI
 {
     public class NPOIHelper
     {
