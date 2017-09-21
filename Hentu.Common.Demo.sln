@@ -5,13 +5,13 @@ VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hentu.Common.NPOI", "src\Hentu.Common.NPOI\Hentu.Common.NPOI.csproj", "{28E085A1-3390-4426-B0A1-582D5D5FDEB2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Test", "4.Test", "{342FB583-2F4A-4E6A-B44E-2FBBDA01A3BD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Test", "5.Test", "{342FB583-2F4A-4E6A-B44E-2FBBDA01A3BD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Share", "1.Share", "{227C1425-5D90-4482-BDD4-34DABBB584D2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Thrift", "2.Thrift", "{C57EEEB6-F089-432B-B1A2-5BFD2C3A809F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Tool", "3.Tool", "{8C86150C-A9AB-40ED-9EF2-2FCA184A0B48}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Tool", "4.Tool", "{8C86150C-A9AB-40ED-9EF2-2FCA184A0B48}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thrift.Server", "src\Hentu.Thrift.Server\Thrift.Server.csproj", "{66D01E2B-5DF0-4B51-9ED8-E4E5B72AA82C}"
 EndProject
@@ -26,6 +26,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hentu.Demo.Service.Thrift", "Test\Hentu.Demo.Service.Thrift\Hentu.Demo.Service.Thrift.csproj", "{F57A69B1-541C-419E-A444-FD93BE385C70}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hentu.Demo.Service.ThriftTest", "Test\Hentu.Demo.Service.ThriftTest\Hentu.Demo.Service.ThriftTest.csproj", "{6D78E52A-864F-43A5-8145-B04165466D85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Dapper", "3.Dapper", "{13ADDD5A-EE9B-47EB-8E0C-3BBA6CAAEA0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hentu.Data.DapperWrapper", "src\Hentu.Data.DapperWrapper\Hentu.Data.DapperWrapper.csproj", "{715D013A-6408-43C4-9F0C-1389E0A10737}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hentu.Data.SqlExpression", "src\Hentu.Data.SqlExpression\Hentu.Data.SqlExpression.csproj", "{8431D042-C534-4A8B-BC47-490BE9D9B94F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +67,14 @@ Global
 		{6D78E52A-864F-43A5-8145-B04165466D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D78E52A-864F-43A5-8145-B04165466D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D78E52A-864F-43A5-8145-B04165466D85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{715D013A-6408-43C4-9F0C-1389E0A10737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{715D013A-6408-43C4-9F0C-1389E0A10737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{715D013A-6408-43C4-9F0C-1389E0A10737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{715D013A-6408-43C4-9F0C-1389E0A10737}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8431D042-C534-4A8B-BC47-490BE9D9B94F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8431D042-C534-4A8B-BC47-490BE9D9B94F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8431D042-C534-4A8B-BC47-490BE9D9B94F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8431D042-C534-4A8B-BC47-490BE9D9B94F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +88,8 @@ Global
 		{39350C28-175A-4238-95C3-38A2CD39A78E} = {1C887786-EABA-4B15-801A-2C2DC93482D7}
 		{F57A69B1-541C-419E-A444-FD93BE385C70} = {1C887786-EABA-4B15-801A-2C2DC93482D7}
 		{6D78E52A-864F-43A5-8145-B04165466D85} = {1C887786-EABA-4B15-801A-2C2DC93482D7}
+		{715D013A-6408-43C4-9F0C-1389E0A10737} = {13ADDD5A-EE9B-47EB-8E0C-3BBA6CAAEA0A}
+		{8431D042-C534-4A8B-BC47-490BE9D9B94F} = {13ADDD5A-EE9B-47EB-8E0C-3BBA6CAAEA0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5CBB6C75-047B-4805-8C3C-D704D65D9D7F}
